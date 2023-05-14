@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Twitter Clone</title>
+  <link rel="stylesheet" href="styles/tweet.css">
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/left-bar.css">
+  <link rel="stylesheet" href="styles/right-bar.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-icons">
+      <img class="twitter-blue-icon" src="icons/twitter-blue.svg">
+    </div>
+    <div class="header-icons">
+      <img class="home-icon" src="icons/house-chimney-window.svg">
+      <div class="tool-tip">Home</div>
+    </div>
+    <div class="header-icons">
+      <img class="explore-icon" src="icons/hash.svg">
+      <div class="tool-tip">Explore</div>
+    </div>
+    <div class="header-icons">
+      <img class="notification-icon" src="icons/bell.svg">
+      <div class="tool-tip">Notifications</div>
+    </div>
+    <div class="header-icons">
+      <img class="message-icon" src="icons/envelope-duotone.svg">
+      <div class="tool-tip">Messages</div>
+    </div>
+    <div class="header-icons">
+      <img class="bookmark-icon" src="icons/bookmark.svg">
+      <div class="tool-tip">Bookmarks</div>
+    </div>
+    <div class="header-icons">
+      <img class="twitter-blue-icon" src="icons/jetpack-compose.svg">
+      <div class="tool-tip">Twitter Blue</div>
+    </div>
+    <div class="header-icons">
+      <img class="profile-icon" src="icons/sign-in-duotone.svg">
+      <div class="tool-tip">Profile</div>
+    </div>
+    <div class="header-icons">
+      <img class="more-icon" src="icons/more-horiz-circled-outline (1).svg">
+      <div class="tool-tip">More</div>
+    </div>
+  </header>
+
+  <nav>
+    <div class="side-bar">
+      <div class="side-bar-first">
+        <h3> Search Filters </h3>
+        <h4>People</h4>
+        <div class="list">From anyone</div>
+        <div class="list">People you know</div>
+        <h4>Location</h4>
+        <div class="list">Anywhere</div>
+        <div class="list">Near you</div>
+        <div class="advanced">
+          Advance search
+        </div>
+      </div>
+  
+      <div class="side-bar-second">
+        <h3>Trends for you</h3>
+        <div class="trends">
+          <div class="trends-search">
+            Trending in Nigeria
+          </div>
+          <div class="trends-title">Crochet</div>
+          <div class="trends-search">
+            12.3k Tweets
+          </div>
+        </div>
+  
+        <div class="trends">
+          <div class="trends-search">
+            Trending in Nigeria
+          </div>
+          <div class="trends-title">Crochet</div>
+          <div class="trends-search">
+            12.3k Tweets
+          </div>
+        </div>
+  
+        <div class="trends">
+          <div class="trends-search">
+            Trending in Nigeria
+          </div>
+          <div class="trends-title">Crochet</div>
+          <div class="trends-search">
+            12.3k Tweets
+          </div>
+        </div>
+  
+        <div class="trends">
+          <div class="trends-search">
+            Trending in Nigeria
+          </div>
+          <div class="trends-title">Crochet</div>
+          <div class="trends-search">
+            12.3k Tweets
+          </div>
+        </div>
+  
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main class="main">
+    <!--Tweet Fliter Menu  -->
+    <section class="tweet-fliter">
+      <div class="search-bar">
+        <input class="search-box" type="text" placeholder="Search">
+      </div>
+      <div class="menu">
+        <div class="menu-list">Top</div>
+        <div class="menu-list">Lastest</div>
+        <div class="menu-list">People</div>
+        <div class="menu-list">Photos</div>
+        <div class="menu-list">Videos</div>
+      </div>
+    </section>
+
+    <!-- Main Tweet -->
+    <section class="tweets">
+      <div class="tweet-preview">
+        <div class="profile">
+          <img class="profile-image" src="thumbnails/channel-1.jpeg">
+        </div>
+        <div class="tweet-details">
+          <div class="username">
+            <span>B.O.D</span> @Bod republic - 3h
+          </div>
+          <div class="tweet-caption">
+            It won't be a surprise if this lady turns out to be a Virgin,OLORUN.
+          </div>
+          <div class="tweet-hashtag">
+            <span>Otedola.</span> Messi.Osimhem.Portable.
+          </div>
+          <div class="tweet-image">
+            <img class="tweet-image-1" src="thumbnails/thumbnail-1.webp">
+            <img class="tweet-image-2" src="thumbnails/thumbnail-2.webp">
+          </div>
+          <div class="tweet-button">
+            <div class="button">
+              <img class="icon" src="icons/chat.svg">
+              <div>13</div>
+            </div>
+            <div class="button">
+              <img class="icon" src="icons/retweet.svg">
+              <div>3</div>
+            </div>
+            <div class="button">
+              <img class="icon" src="icons/heart.svg">
+              <div>24</div>
+            </div>
+            <div class="button">
+              <img class="icon" src="icons/activity.svg">
+              <div>1,044</div>
+            </div>
+            <div class="button">
+              <img class="icon" src="icons/arrow-bar-up.svg">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tweet-preview">
+        <div class="profile">
+          <img class="profile-image" src="thumbnails/channel-2.jpeg">
+        </div>
+        <div class="tweet-details">
+          <div class="username">
+            <span>Woye</span> @woye1 - 5h
+          </div>
+          <div class="tweet-caption">
+            Go and buy Transcorp share guys as Tony oumelu increase is take to 25.5%.<span>Otedola's</span> shares
+            is 5.52%. You wil make money guys.
+          </div>
+          <div class="tweet-button">
+            <div class="button">
+              <img class="icon" src="icons/chat.svg">
+              <div>58</div>
+            </div>
+            <div class="button">
+              <img class="icon" src="icons/retweet.svg">
+              <div>89</div>
+            </div>
+            <div class="button">
+              <img class="icon" src="icons/heart.svg">
+              <div>479</div>
+            </div>
+            <div class="button">
+              <img class="icon" src="icons/activity.svg">
+              <div>44.2K</div>
+            </div>
+            <div class="button">
+              <img class="icon" src="icons/arrow-bar-up.svg">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tweet-preview">
+        <div class="profile">
+          <img class="profile-image" src="thumbnails/channel-3.jpeg">
+        </div>
+        <div class="tweet-details">
+          <div class="username">
+            <span>IRUNNIA</span> @Irunnia - 6h
+          </div>
+          <div class="tweet-caption">
+            You see this transcorp, Tony Oumelu and <span>Otedola's</span> matter...<span>Otedola</span> won. I don't
+            know why you people are saying he is the one at a loss. Man sold is share at 6x. That's a massive profit!
+          </div>
+          <div class="tweet-button">
+            <div class="button">
+              <img class="icon" src="icons/chat.svg">
+              <div>5</div>
+            </div>
+            <div class="button">
+              <img class="icon" src="icons/retweet.svg">
+              <div>8</div>
+            </div>
+            <div class="button">
+              <img class="icon" src="icons/heart.svg">
+              <div>102</div>
+            </div>
+            <div class="button">
+              <img class="icon" src="icons/activity.svg">
+              <div>5,348</div>
+            </div>
+            <div class="button">
+              <img class="icon" src="icons/arrow-bar-up.svg">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tweet-preview">
+        <div class="profile">
+          <img class="profile-image" src="thumbnails/channel-4.jpeg">
+        </div>
+        <div class="tweet-details">
+          <div class="username">
+            <span>JOE</span>@gani jonathan - 42h
+          </div>
+          <div class="tweet-caption">
+            Since Mr. Eazi started dating Teni <span>Otedola's</span> it's been from one business deal to another. Can't
+            even remember when this dude went on a tour.
+          </div>
+          <div class="tweet-hashtag">
+            Lesson; date someone that can up your game.
+          </div>
+          <div class="tweet-image">
+            <img class="tweet-image-single" src="thumbnails/thumbnail-3.webp">
+          </div>
+          <div class="tweet-button">
+            <div class="button">
+              <img class="icon" src="icons/chat.svg">
+              <div>300</div>
+            </div>
+            <div class="button">
+              <img class="icon" src="icons/retweet.svg">
+              <div>1,470</div>
+            </div>
+            <div class="button">
+              <img class="icon" src="icons/heart.svg">
+              <div>1,243</div>
+            </div>
+            <div class="button">
+              <img class="icon" src="icons/activity.svg">
+              <div>32.5k</div>
+            </div>
+            <div class="button">
+              <img class="icon" src="icons/arrow-bar-up.svg">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tweet-preview">
+        <div class="profile">
+          <img class="profile-image" src="thumbnails/channel-1.jpeg">
+        </div>
+        <div class="tweet-details">
+          <div class="username">
+
+            <span>B.O.D</span> @Bod republic - 3h
+          </div>
+          <div class="tweet-caption">
+            It won't be a surprise if this lady turns out to be a Virgin,OLORUN.
+          </div>
+          <div class="tweet-hashtag">
+            <span>Otedola.</span> Messi.Osimhem.Portable.
+          </div>
+          <div class="tweet-image">
+            <img class="tweet-image-1" src="thumbnails/thumbnail-5.webp">
+            <img class="tweet-image-2" src="thumbnails/thumbnail-6.webp">
+          </div>
+          <div class="tweet-button">
+            <div class="button">
+              <img class="icon" src="icons/chat.svg">
+              <div>13</div>
+            </div>
+            <div class="button">
+              <img class="icon" src="icons/retweet.svg">
+              <div>3</div>
+            </div>
+            <div class="button">
+              <img class="icon" src="icons/heart.svg">
+              <div>24</div>
+            </div>
+            <div class="button">
+              <img class="icon" src="icons/activity.svg">
+              <div>1,044</div>
+            </div>
+            <div class="button">
+              <img class="icon" src="icons/arrow-bar-up.svg">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tweet-preview">
+        <div class="profile">
+          <img class="profile-image" src="thumbnails/channel-3.jpeg">
+        </div>
+        <div class="tweet-details">
+          <div class="username">
+            <span>IRUNNIA</span> @Irunnia - 6h
+          </div>
+          <div class="tweet-caption">
+            You see this transcorp, Tony Oumelu and <span>Otedola's</span> matter...<span>Otedola</span> won. I don't
+            know why you people are saying he is the one at a loss. Man sold is share at 6x. That's a massive profit!
+          </div>
+          <div class="tweet-button">
+            <div class="button">
+              <img class="icon" src="icons/chat.svg">
+              <div>5</div>
+            </div>
+            <div class="button">
+              <img class="icon" src="icons/retweet.svg">
+              <div>8</div>
+            </div>
+            <div class="button">
+              <img class="icon" src="icons/heart.svg">
+              <div>102</div>
+            </div>
+            <div class="button">
+              <img class="icon" src="icons/activity.svg">
+              <div>5,348</div>
+            </div>
+            <div class="button">
+              <img class="icon" src="icons/arrow-bar-up.svg">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tweet-preview">
+        <div class="profile">
+          <img class="profile-image" src="thumbnails/channel-4.jpeg">
+        </div>
+        <div class="tweet-details">
+          <div class="username">
+            <span>JOE</span>@gani jonathan - 42h
+          </div>
+          <div class="tweet-caption">
+            Since Mr. Eazi started dating Teni <span>Otedola's</span> it's been from one business deal to another. Can't
+            even remember when this dude went on a tour.
+          </div>
+          <div class="tweet-hashtag">
+            Lesson; date someone that can up your game.
+          </div>
+          <div class="tweet-image">
+            <img class="tweet-image-single" src="thumbnails/thumbnail-4.webp">
+          </div>
+          <div class="tweet-button">
+            <div class="button">
+              <img class="icon" src="icons/chat.svg">
+              <div>300</div>
+            </div>
+            <div class="button">
+              <img class="icon" src="icons/retweet.svg">
+              <div>1,470</div>
+            </div>
+            <div class="button">
+              <img class="icon" src="icons/heart.svg">
+              <div>1,243</div>
+            </div>
+            <div class="button">
+              <img class="icon" src="icons/activity.svg">
+              <div>32.5k</div>
+            </div>
+            <div class="button">
+              <img class="icon" src="icons/arrow-bar-up.svg">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tweet-preview">
+        <div class="profile">
+          <img class="profile-image" src="thumbnails/channel-2.jpeg">
+        </div>
+        <div class="tweet-details">
+          <div class="username">
+            <span>Woye</span> @woye1 - 5h
+          </div>
+          <div class="tweet-caption">
+            Go and buy Transcorp share guys as Tony oumelu increase is take to 25.5%.<span>Otedola's</span> shares
+            is 5.52%. You wil make money guys.
+          </div>
+          <div class="tweet-button">
+            <div class="button">
+              <img class="icon" src="icons/chat.svg">
+              <div>58</div>
+            </div>
+            <div class="button">
+              <img class="icon" src="icons/retweet.svg">
+              <div>89</div>
+            </div>
+            <div class="button">
+              <img class="icon" src="icons/heart.svg">
+              <div>479</div>
+            </div>
+            <div class="button">
+              <img class="icon" src="icons/activity.svg">
+              <div>44.2K</div>
+            </div>
+            <div class="button">
+              <img class="icon" src="icons/arrow-bar-up.svg">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tweet-preview">
+        <div class="profile">
+          <img class="profile-image" src="thumbnails/channel-3.jpeg">
+        </div>
+        <div class="tweet-details">
+          <div class="username">
+            <span>IRUNNIA</span> @Irunnia - 6h
+          </div>
+          <div class="tweet-caption">
+            You see this transcorp, Tony Oumelu and <span>Otedola's</span> matter...<span>Otedola</span> won. I don't
+            know why you people are saying he is the one at a loss. Man sold is share at 6x. That's a massive profit!
+          </div>
+          <div class="tweet-button">
+            <div class="button">
+              <img class="icon" src="icons/chat.svg">
+              <div>5</div>
+            </div>
+            <div class="button">
+              <img class="icon" src="icons/retweet.svg">
+              <div>8</div>
+            </div>
+            <div class="button">
+              <img class="icon" src="icons/heart.svg">
+              <div>102</div>
+            </div>
+            <div class="button">
+              <img class="icon" src="icons/activity.svg">
+              <div>5,348</div>
+            </div>
+            <div class="button">
+              <img class="icon" src="icons/arrow-bar-up.svg">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tweet-preview">
+        <div class="profile">
+          <img class="profile-image" src="thumbnails/channel-1.jpeg">
+        </div>
+        <div class="tweet-details">
+          <div class="username">
+            <span>B.O.D</span> @Bod republic - 3h
+          </div>
+          <div class="tweet-caption">
+            It won't be a surprise if this lady turns out to be a Virgin,OLORUN.
+          </div>
+          <div class="tweet-hashtag">
+            <span>Otedola.</span> Messi.Osimhem.Portable.
+          </div>
+          <div class="tweet-image">
+            <img class="tweet-image-1" src="thumbnails/thumbnail-8.webp">
+            <img class="tweet-image-2" src="thumbnails/thumbnail-9.webp">
+          </div>
+          <div class="tweet-button">
+            <div class="button">
+              <img class="icon" src="icons/chat.svg">
+              <div>13</div>
+            </div>
+            <div class="button">
+              <img class="icon" src="icons/retweet.svg">
+              <div>3</div>
+            </div>
+            <div class="button">
+              <img class="icon" src="icons/heart.svg">
+              <div>24</div>
+            </div>
+            <div class="button">
+              <img class="icon" src="icons/activity.svg">
+              <div>1,044</div>
+            </div>
+            <div class="button">
+              <img class="icon" src="icons/arrow-bar-up.svg">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tweet-preview">
+        <div class="profile">
+          <img class="profile-image" src="thumbnails/channel-2.jpeg">
+        </div>
+        <div class="tweet-details">
+          <div class="username">
+            <span>Woye</span> @woye1 - 5h
+          </div>
+          <div class="tweet-caption">
+            Go and buy Transcorp share guys as Tony oumelu increase is take to 25.5%.<span>Otedola's</span> shares
+            is 5.52%. You wil make money guys.
+          </div>
+          <div class="tweet-button">
+            <div class="button">
+              <img class="icon" src="icons/chat.svg">
+              <div>58</div>
+            </div>
+            <div class="button">
+              <img class="icon" src="icons/retweet.svg">
+              <div>89</div>
+            </div>
+            <div class="button">
+              <img class="icon" src="icons/heart.svg">
+              <div>479</div>
+            </div>
+            <div class="button">
+              <img class="icon" src="icons/activity.svg">
+              <div>44.2K</div>
+            </div>
+            <div class="button">
+              <img class="icon" src="icons/arrow-bar-up.svg">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+</body>
+
+</html>

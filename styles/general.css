@@ -1,0 +1,14 @@
+body {
+  padding-bottom: 2000px;
+  margin: 0;
+  /* padding-left: 100px; */
+  /* padding-right: 200px; */
+  /* display: grid;
+  grid-template-columns: 100px 1fr 400px; */
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  margin-bottom: 0;
+}

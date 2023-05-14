@@ -1,0 +1,42 @@
+.header {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 165px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: end;
+}
+
+.twitter-blue-icon, .home-icon, .explore-icon, .notification-icon, .message-icon, .bookmark-icon, .twitter-blue-icon, .profile-icon, .more-icon {
+  width: 23px;
+}
+
+.header-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.tool-tip {
+  position: absolute;
+  white-space: nowrap;
+  background-color: rgba(66, 162, 230, 0.178);
+  padding: 3px 7px 3px 7px;
+  font-size: 8px;
+  align-items: center;
+  justify-content: center;
+  bottom: -20px;
+  opacity: 0;
+  transition: opacity 0.5s;
+  pointer-events: none;
+}
+
+.header-icons:hover .tool-tip {
+  opacity: 1;
+}
