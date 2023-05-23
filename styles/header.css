@@ -1,15 +1,14 @@
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1281px) {
   .header-container {
     position: fixed;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    /* width: 380px; */
-    /* width: 100%; */
+    width: 100%;
     /* background-color: blue; */
   }
-  
+
   .header {
     /* background-color: blue; */
     width: 270px;
@@ -22,13 +21,13 @@
     align-items: flex-start;
     justify-content: space-between;
   }
-  
+
   .header-child {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
   }
-  
+
   .twitter-blue {
     /* background-color: aqua; */
     padding-top: 10px;
@@ -36,7 +35,7 @@
     padding-left: 10px;
     cursor: pointer;
   }
-  
+
   .tweet-icon {
     background-color: rgb(0, 170, 255);
     color: white;
@@ -45,7 +44,7 @@
     border-radius: 30px;
     cursor: pointer;
   }
-  
+
   .header-bottom {
     display: flex;
     align-items: center;
@@ -53,29 +52,29 @@
     margin-bottom: 20px;
     cursor: pointer;
   }
-  
+
   .header-bottom img {
     width: 50px;
     border-radius: 25px;
   }
-  
+
   .header-bottom div {
     margin-left: 5px;
     font-size: 18px;
     font-weight: 700;
   }
-  
+
   .header-bottom span {
     color: rgb(105, 104, 104);
     font-weight: 300;
   }
-  
+
   .tweet-headers {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
-  
+
   .header-icons {
     display: flex;
     align-items: center;
@@ -85,7 +84,7 @@
     margin-bottom: 20px;
     cursor: pointer;
   }
-  
+
   .twitter-blue-icon,
   .home-icon,
   .explore-icon,
@@ -97,12 +96,12 @@
   .more-icon {
     width: 27px;
   }
-  
+
   .tool-tip span {
     font-weight: 700;
     font-size: 23px;
   }
-  
+
   .tool-tip {
     font-size: 23px;
     margin-left: 20px;
@@ -114,78 +113,61 @@
   } */
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1005px) and (max-width: 1280px) {
   .header-container {
     position: fixed;
     top: 0;
     bottom: 0;
     left: 0;
-    width: 380px;
+    width: 80px;
+    /* background-color: antiquewhite; */
   }
-  
+
   .header {
-    /* background-color: blue; */
-    width: 270px;
+    width: 70px;
     position: fixed;
     top: 0;
     bottom: 0;
-    left: 100px;
+    left: 10px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
   }
-  
+
   .header-child {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
   }
-  
+
   .twitter-blue {
-    /* background-color: aqua; */
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
   }
-  
+
   .tweet-icon {
     background-color: rgb(0, 170, 255);
     color: white;
-    padding: 15px 100px;
+    padding: 10px 15px;
     font-size: 20px;
-    border-radius: 30px;
+    border-radius: 50px;
+    font-size: 15px;
   }
-  
-  .header-bottom {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 20px;
-  }
-  
+
   .header-bottom img {
     width: 50px;
     border-radius: 25px;
+    margin-bottom: 10px;
   }
-  
-  .header-bottom div {
-    margin-left: 5px;
-    font-size: 18px;
-    font-weight: 700;
-  }
-  
-  .header-bottom span {
-    color: rgb(105, 104, 104);
-    font-weight: 300;
-  }
-  
+
   .tweet-headers {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
-  
+
   .header-icons {
     display: flex;
     align-items: center;
@@ -194,7 +176,7 @@
     margin-top: 20px;
     margin-bottom: 20px;
   }
-  
+
   .twitter-blue-icon,
   .home-icon,
   .explore-icon,
@@ -206,14 +188,105 @@
   .more-icon {
     width: 27px;
   }
-  
-  .tool-tip span {
-    font-weight: 700;
-    font-size: 23px;
+
+  .tool-tip,
+  .header-bottom-details {
+    display: none;
   }
-  
-  .tool-tip {
-    font-size: 23px;
-    margin-left: 20px;
+}
+
+@media only screen and (min-width: 500px) and (max-width: 1004px) {
+  .header-container {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 80px;
+    /* background-color: antiquewhite; */
   }
+
+  .header {
+    width: 70px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .header-child {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .twitter-blue {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+  }
+
+  .tweet-icon {
+    background-color: rgb(0, 170, 255);
+    color: white;
+    padding: 10px 15px;
+    font-size: 20px;
+    border-radius: 50px;
+    font-size: 15px;
+  }
+
+  .header-bottom img {
+    width: 50px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+  }
+
+  .tweet-headers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .header-icons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .twitter-blue-icon,
+  .home-icon,
+  .explore-icon,
+  .notification-icon,
+  .message-icon,
+  .bookmark-icon,
+  .twitter-blue-icon,
+  .profile-icon,
+  .more-icon {
+    width: 27px;
+  }
+
+  .tool-tip,
+  .header-bottom-details {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 499px) {
+  .header-container {
+    background-color: antiquewhite;
+    position: fixed;
+    height: 70px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+
+
 }
