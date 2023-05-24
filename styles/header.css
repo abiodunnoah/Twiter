@@ -1,4 +1,8 @@
 @media only screen and (min-width: 1281px) {
+  .mobile-view-header {
+    display: none;
+  }
+
   .header-container {
     position: fixed;
     top: 0;
@@ -114,6 +118,10 @@
 }
 
 @media only screen and (min-width: 1005px) and (max-width: 1280px) {
+  .mobile-view-header {
+    display: none;
+  }
+
   .header-container {
     position: fixed;
     top: 0;
@@ -196,24 +204,28 @@
 }
 
 @media only screen and (min-width: 500px) and (max-width: 1004px) {
+  .mobile-view-header {
+    display: none;
+  }
+
   .header-container {
     position: fixed;
     top: 0;
     bottom: 0;
     left: 0;
-    width: 80px;
+    width: 90px;
     /* background-color: antiquewhite; */
+    display: flex;
   }
 
   .header {
-    width: 70px;
+    width: 90px;
     position: fixed;
     top: 0;
     bottom: 0;
-    left: 10px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-between;
   }
 
@@ -279,14 +291,27 @@
 
 @media only screen and (max-width: 499px) {
   .header-container {
-    background-color: antiquewhite;
+    display: none;
+  }
+
+  .mobile-view-header {
+    background-color: white;
     position: fixed;
-    height: 70px;
+    height: 50px;
     bottom: 0;
     left: 0;
     right: 0;
+    border-top: 1px solid rgb(239, 243, 244);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
   }
 
-
+  .mobile-home-icon,
+  .mobile-explore-icon,
+  .mobile-notification-icon,
+  .mobile-message-icon {
+    width: 25px;
+  }
 
 }
